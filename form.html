@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+</head>
+<body>
+   <nav>
+  <a href="index.html">Home</a> |
+  <a href="table.html">Stats</a> |
+  <a href="form.html">Feedback</a> |
+  <a href="video.html">Video</a>
+</nav>
+
+<br><br>
+
+<h2 style="text-align:center;">Feedback Form</h2>
+
+
+<form style="background-color: blue; padding: 20px; width: 520px; margin: auto; border-radius: 10px; color: white;">
+
+  <label for="fname">First Name:</label>
+  <input type="text" id="fname" name="fname">
+  <br><br>
+
+  <label for="lname">Last Name:</label>
+  <input type="text" id="lname" name="lname">
+  <br><br>
+
+  <label for="language">Select your favorite Pool Game:</label>
+  <br>
+  <select id="language" name="language">
+    <option value="javascript">8 Ball</option>
+    <option value="python">9 Ball</option>
+    
+  </select>
+
+  <br><br>
+
+  <fieldset style="padding: 10px; width: 330px;">
+    <legend>Years of 8 Ball or 9 Ball Experience</legend>
+
+    <input type="radio" id="y1" name="experience" value="0-2">
+    <label for="y1">0-2 years</label><br>
+
+    <input type="radio" id="y2" name="experience" value="3-5">
+    <label for="y2">3-5 years</label><br>
+
+    <input type="radio" id="y3" name="experience" value="6-10">
+    <label for="y3">6-10 years</label><br>
+
+    <input type="radio" id="y4" name="experience" value="10+">
+    <label for="y4">10+ years</label>
+  </fieldset>
+
+  <br>
+
+  <textarea id="comments" name="comments" rows="12" cols="40"
+  style="background-color: yellow; width: 480px; margin-bottom: 0px;"
+  placeholder="Enter your comment here..."></textarea>
+
+  <br>
+
+  <input type="submit" value="Submit" style="background-color: orange;">
+  <input type="reset" value="Reset" style="background-color: red; color: white;">
+
+</form>
+ 
+    
+</body>
+</html>
